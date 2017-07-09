@@ -415,7 +415,7 @@ Deluge.plugins.autoremoveplus.ui.PreferencePage = Ext.extend(Ext.TabPanel, {
                 name: 'min2',
                 fieldLabel: _('Min'),
                 value: 0.0,
-                maxValue: 10000.0,
+                maxValue: 1000000.0,
                 minValue: 0.0,
                 allowDecimals: true,
                 decimalPrecision: 3,
